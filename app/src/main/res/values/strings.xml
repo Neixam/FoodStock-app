@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FoodStock</string>
+    <string name="title_activity_scanner_bar_code">ScannerBarCode</string>
+</resources>
