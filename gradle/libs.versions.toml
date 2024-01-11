@@ -17,6 +17,8 @@ play-services-code-scanner = "16.1.0"
 ui-android = "1.5.4"
 foundation-layout-android = "1.5.4"
 volley = "1.2.1"
+navigation-runtime-ktx = "2.7.6"
+navigation-compose = "2.7.6"
 
 [libraries]
 barcode-scanning = { module = "com.google.mlkit:barcode-scanning", version.ref = "barcode-scanning" }
@@ -42,6 +44,8 @@ play-services-code-scanner = { group = "com.google.android.gms", name = "play-se
 androidx-ui-android = { group = "androidx.compose.ui", name = "ui-android", version.ref = "ui-android" }
 androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundation-layout-android" }
 volley = { module = "com.android.volley:volley", version.ref = "volley" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigation-runtime-ktx" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
